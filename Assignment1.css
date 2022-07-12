@@ -1,0 +1,226 @@
+.big-panel{
+    position: relative;
+    /*border: 2px solid red;*/
+    top: 0px;
+    left: 0px;
+    width: 1366px;
+    height: 80px;
+    background: #CE0505 0% 0% no-repeat padding-box;  
+}
+.small-panel{
+    position: absolute;
+    /*border: 2px solid green;*/
+    top: 23px;
+    left: 102px;
+    width: 1163px;
+    height: 52px;
+}
+.logo{
+    position: absolute;
+    top: -39px;
+    left: -5px;
+    width: 51px;
+    height: 52px;
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+}
+.big-right{
+    position: absolute;
+    top: 20px;
+    left: 1030px;
+    width: 270px;
+    height: 40px;
+}
+.btn1{
+    padding: 10px 30px;
+    background: #CE0505 0% 0% no-repeat padding-box;
+    color: wheat;
+    border: white;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    }
+.btn2{
+    padding: 12px 16px;
+    background: #CE0505 0% 0% no-repeat padding-box;
+    color: wheat;
+    border: 1px solid white;
+    display: inline-block;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer; 
+}
+.btn2:hover{
+    background-color: gray;
+}
+.detail{
+    border: black;
+    top: 120px;
+    left: 106px;
+    width: 507px;
+    height: 0px;
+    padding: 118px;
+    margin: -43px;
+    font: normal normal bold 36px/55px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+.bottom-container{
+    /*border: 1px solid blue;*/
+    top: 50px;
+    
+}
+.left{
+    /*border: 1px solid green;*/
+    top: 70px;
+    left: 200px;
+    width: 260px;
+    height: 725px;
+    color: #8C96AB;
+    text-align: left;
+    display: inline-block;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-left: 70px;
+}
+.left div{
+    margin-left: 10px;
+}
+.filter{
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    padding: 5px;
+}
+.location{
+    padding: 5px;
+    margin: 8px;
+    border: 1px solid #8C96AB;
+    border-radius: 3px;
+    opacity: 1;
+    color: #8C96AB;
+}
+.center{
+    /*border: 1px solid red;*/
+    top: 50px;
+    /* left: 401px; */
+    width: 966px;
+    height: 718px;
+    margin: 6px;
+    display: inline-block;
+    text-align: center;
+}
+.cr{
+    /*border: 1px solid purple;*/
+    height: 296px;
+    display: block;
+    margin: 32px;
+    margin-right: 100px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.cr-up{
+    display: block;  
+    margin-right: 200px;
+}
+.cr-up .cr-right{
+    margin-left: 40px;
+}
+.cr-down{
+    display: block;
+    margin-right: 300px;
+}
+.cr-down .cr-right{
+    margin-right: 10px;
+}
+.cr-left{
+    display: inline-block;
+    
+}
+.cr-right{
+    display: inline-block;   
+}
+.ft{
+    top: 234px;
+    left: 614px;
+    width: 303px;
+    height: 43px;
+    text-align: left;
+    font: normal normal 600 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+.st{
+    top: 282px;
+left: 619px;
+width: 40px;
+height: 23px;
+text-align: left;
+font: normal normal medium 16px/30px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+}
+.tht{
+    top: 310px;
+left: 619px;
+width: 370px;
+height: 23px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 16px/30px Poppins;
+letter-spacing: 0px;
+color: #636F88;
+opacity: 1;
+}
+.dtl{
+    top: 397px;
+left: 458px;
+width: 140px;
+height: 118px;
+/* UI Properties*/
+text-align: left;
+font: normal normal normal 16px/30px Poppins;
+letter-spacing: 0px;
+color: #636F88;
+opacity: 1;
+padding: 64px;
+}
+.dtr{
+    top: 397px;
+left: 634px;
+width: 251px;
+height: 69px;
+text-align: left;
+font: normal normal normal 16px/30px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+}
+.item-img{
+    height: 90px;
+    width: 65%;
+    border-radius: 15% ;
+}
+.pagination {
+    display: inline-block;
+    right: 300px;
+  }
+  .pagination a {
+    color: #8C96AB;
+    float: left;
+    padding: 8px 13px;
+    text-decoration: none;
+    border: 1px solid #8C96AB;
+    border-radius: 10px;
+    margin: 4px;
+  }
+  .pagination a.active {
+    background-color: #8C96AB;
+    color: white;
+    border-radius: 10px;
+  }
+  
